@@ -65,7 +65,7 @@ function n() {
     });
     
     let User22=0;
-// Очередь    
+// РћС‡РµСЂРµРґСЊ    
 //for (x=1; x=15; x++){
 //let v=-10000;
 //setInterval(function() {
@@ -75,7 +75,7 @@ let randTime =randomInteger(500,5000);
 function ochered() {
 console.log(User22)
 let randUser1=randomInteger(0,arrayobj.length-1);
-predZnach=arrayobj[randUser1]; // Значение элемента 1-го массива до изменения
+predZnach=arrayobj[randUser1]; // Р—РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° 1-РіРѕ РјР°СЃСЃРёРІР° РґРѕ РёР·РјРµРЅРµРЅРёСЏ
 arrayobj.splice(randUser1,1,arrayobj2[User22]); 
     schtk2=0 ;
     user = ``;  
@@ -110,7 +110,8 @@ arrayobj2.splice(User22,1,predZnach);
     }    
  
 }; 
-//  изменениеизменениеизменениеизменениеизменениеизменениеизменениеизменениеизменение
+//  РёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµРёР·РјРµРЅРµРЅРёРµ
+//  РёР·
 (function runInterval() {
     interval = (randomInteger(1, 2))*1000;
     setTimeout(function(){
