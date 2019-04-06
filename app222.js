@@ -49,8 +49,8 @@ function n() {
     schtk3=0;
     let user2 = ``;
     
-    //Math.floor(set)
-    let arrayobj2 = array(set+1, set+2); 
+    let ocher=Math.floor(document.getElementById('inp2').value);
+    let arrayobj2 = array(set+1, ocher); 
     //arrayobj2.splice(1,1,'8'); 
   for (i = 0; i < arrayobj2.length; i++) {
      user2 += `<div class='user2'id='user22' style="right:10px;"><p>`+arrayobj2[i]+`</p></div>`; 
@@ -64,7 +64,7 @@ function n() {
     schtk3+=80; 
     });
     
-    let User2=0;
+    let User22=0;
 // Очередь    
 //for (x=1; x=15; x++){
 //let v=-10000;
@@ -73,10 +73,10 @@ function n() {
 let randTime =randomInteger(500,5000);  
 //let timer = setInterval(
 function ochered() {
-console.log(User2)
-let randUser1=randomInteger(0,3);
+console.log(User22)
+let randUser1=randomInteger(0,arrayobj.length-1);
 predZnach=arrayobj[randUser1]; // Значение элемента 1-го массива до изменения
-arrayobj.splice(randUser1,1,arrayobj2[User2]); 
+arrayobj.splice(randUser1,1,arrayobj2[User22]); 
     schtk2=0 ;
     user = ``;  
   for (i = 0; i < arrayobj.length; i++) {
@@ -89,7 +89,7 @@ arrayobj.splice(randUser1,1,arrayobj2[User2]);
       }); 
     schtk2+=80; 
     });
-arrayobj2.splice(User2,1,predZnach);
+arrayobj2.splice(User22,1,predZnach);
  user2 = ``;
  schtk3=0;
   for (i = 0; i < arrayobj2.length; i++) {
@@ -102,17 +102,17 @@ arrayobj2.splice(User2,1,predZnach);
       }); 
     schtk3+=80; 
     });
-    if (User2<arrayobj2.length-1){
-    User2=+1;
+    if (User22<arrayobj2.length-1){
+    User22=User22+1;
     }
     else{
-    User2=0;
+    User22=0;
     }    
  
 }; 
-
+//  изменениеизменениеизменениеизменениеизменениеизменениеизменениеизменениеизменение
 (function runInterval() {
-    interval = randomInteger(500, 5000);
+    interval = (randomInteger(1, 2))*1000;
     setTimeout(function(){
        ochered();
        runInterval();
