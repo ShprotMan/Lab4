@@ -2,9 +2,14 @@
     position: absolute;
 left: 50%;
 }
+.text2{  
+    position: absolute;
+    top:330px;
+left: 50%;
+}
 .btn{
 position: absolute;
-top: 331px;
+top: 371px;
 left: 55%;
 }
 body {    
